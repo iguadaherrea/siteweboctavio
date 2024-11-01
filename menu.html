@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Game Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <img src="auris.png" alt="" class="img">
+        <header>
+            <div class="puntaje">
+                <img src="puntos.png" alt="">
+                <span class="puntos" id="puntos">0</span>
+            </div>
+            <h1>QUIZ</h1>
+            <div class="jugador">
+                <span class="nombre" id="nombre">Martín</span>
+                <img src="user.png" alt="">
+            </div>
+        </header>
+
+        <!-- SECCIÓN MENU DEL JUEGO -->
+        <main class="menu">
+            <h2>Hola <span id="nombre-jugador">Martín</span></h2>
+            <p>Elige una categoría..</p>
+            <div class="categorias">
+                <div class="categoria" id="general">
+                    <img src="general.png" alt="" class="foto-categoria">
+                    <h3>General</h3>
+                </div>
+                <div class="categoria" id="musica">
+                    <img src="musica.png" alt="" class="foto-categoria">
+                    <h3>Música</h3>
+                </div>
+                <div class="categoria" id="peliculas">
+                    <img src="peliculas.png" alt="" class="foto-categoria">
+                    <h3>Películas</h3>
+                </div>
+                <div class="categoria" id="deportes">
+                    <img src="deportes.png" alt="" class="foto-categoria">
+                    <h3>Deportes</h3>
+                </div>
+             
+            </div>
+        </main>
+    </div>
+
+    <script src="menu.js"></script>
+</body>
+</html>
